@@ -4,7 +4,7 @@
 
 #include "../include/KthLargestElementinanArray.h"
 
-int KthLargestElementinanArray::quicksort(vector<int>& nums, int k, int l){
+int KthLargestElementinanArray::quicksort(std::vector<int>& nums, int k, int l){
     int temp;
     while(k<l){
         while(l>k && nums[l]<= nums[k])l--;
@@ -25,7 +25,7 @@ int KthLargestElementinanArray::quicksort(vector<int>& nums, int k, int l){
     return l;
 }
 
-int KthLargestElementinanArray::findKthLargest(vector<int>& nums, int k) {
+int KthLargestElementinanArray::findKthLargest(std::vector<int>& nums, int k) {
     int s = 0;
     int e = nums.size();
     int m, l, r;

@@ -3,10 +3,6 @@
 //
 
 #include "../include/MSTPrim.h"
-#include <iostream>
-#include <algorithm>
-
-using namespace std;
 
 struct Node{
     int s;
@@ -66,14 +62,14 @@ int MSTPrim(void){
     int N;
     int *dist;
 
-    while(cin>>N){
+    while(std::cin>>N){
         dist = new int[N*N];
 
         for(int i=0; i< N *N; i++)
-            cin>>dist[i];
+            std::cin>>dist[i];
 
 
-        cout<<func(N, dist)<<endl;
+        std::cout<<func(N, dist)<<std::endl;
 
 
         delete []dist;

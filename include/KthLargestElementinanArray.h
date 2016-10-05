@@ -7,12 +7,11 @@
 
 #include <vector>
 #include <iostream>
-using namespace std;
 
 class KthLargestElementinanArray{
 public:
-    int findKthLargest(vector<int>& nums, int k);
-    int quicksort(vector<int>& nums, int k, int l);
+    int findKthLargest(std::vector<int>& nums, int k);
+    int quicksort(std::vector<int>& nums, int k, int l);
 };
 
 #endif //LECTCODE_PRACTICE_KTHLARGESTELEMENTINANARRAY_H
