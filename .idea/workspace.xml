@@ -70,8 +70,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+            <state relative-caret-position="627">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -156,8 +156,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="90" />
-    <option name="y" value="72" />
+    <option name="x" value="89" />
+    <option name="y" value="33" />
     <option name="width" value="1831" />
     <option name="height" value="1047" />
   </component>
@@ -457,7 +457,7 @@
       <workItem from="1478052799276" duration="721000" />
       <workItem from="1478053881691" duration="2167000" />
       <workItem from="1478056240757" duration="29000" />
-      <workItem from="1478056271954" duration="34000" />
+      <workItem from="1478056271954" duration="242000" />
     </task>
     <task id="LOCAL-00001" summary="add UniqueBinarySearchTreesII solution">
       <created>1474475909083</created>
@@ -519,7 +519,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101133000" />
+    <option name="totallyTimeSpent" value="101341000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -531,7 +531,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="90" y="72" width="1831" height="1047" extended-state="0" />
+    <frame x="89" y="33" width="1831" height="1047" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15319389" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -940,8 +940,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+        <state relative-caret-position="627">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>

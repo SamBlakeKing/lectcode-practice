@@ -27,6 +27,4 @@
 *.out
 *.app
 
-*.iml
-*.xml
-.idea/
+/.idea/
