@@ -36,66 +36,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="811b6bec-01c5-48a8-be9d-bd002505f249" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/ConstructBinaryTreefromPreorderandInorderTraversal.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/ContainsDuplicateII.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/DistinctSubsequences.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/EditDistance.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/KthSmallestElementinaBST.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/LinkedListCycle.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/LongestIncreasingSubsequence.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/MinimumWindowSubstring.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/RecoverBinarySearchTree.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/ReverseNodesink-Group.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/RussianDollEnvelopes.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/SerializeandDeserializeBinaryTree.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/SlidingWindowMaximum.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/TrappingRainWaterII.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/redAndBlack.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ConstructBinaryTreefromPreorderandInorderTraversal.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ContainsDuplicateII.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DistinctSubsequences.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EditDistance.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/KthSmallestElementinaBST.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LinkedListCycle.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/LongestIncreasingSubsequence.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MinimumWindowSubstring.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/RecoverBinarySearchTree.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ReverseNodesink-Group.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/RussianDollEnvelopes.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SerializeandDeserializeBinaryTree.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SlidingWindowMaximum.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TrappingRainWaterII.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/lectcode-practice.iml" afterPath="$PROJECT_DIR$/.idea/lectcode-practice.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AdditiveNumber.cpp" afterPath="$PROJECT_DIR$/src/AdditiveNumber.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BasicCalculatorII.cpp" afterPath="$PROJECT_DIR$/src/BasicCalculatorII.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BurstBalloons.cpp" afterPath="$PROJECT_DIR$/src/BurstBalloons.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CoinChange.cpp" afterPath="$PROJECT_DIR$/src/CoinChange.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CombinationSum.cpp" afterPath="$PROJECT_DIR$/src/CombinationSum.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CountCompleteTreeNodes.cpp" afterPath="$PROJECT_DIR$/src/CountCompleteTreeNodes.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FindtheDuplicateNumber.cpp" afterPath="$PROJECT_DIR$/src/FindtheDuplicateNumber.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GrayCode.cpp" afterPath="$PROJECT_DIR$/src/GrayCode.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/HouseRobber2.cpp" afterPath="$PROJECT_DIR$/src/HouseRobber2.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/IP_deny.cpp" afterPath="$PROJECT_DIR$/src/IP_deny.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LongestConsecutiveSequence.cpp" afterPath="$PROJECT_DIR$/src/LongestConsecutiveSequence.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MaximumProduct.cpp" afterPath="$PROJECT_DIR$/src/MaximumProduct.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MaximumSubarray.cpp" afterPath="$PROJECT_DIR$/src/MaximumSubarray.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/N-Queens.cpp" afterPath="$PROJECT_DIR$/src/N-Queens.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/N-QueensII.cpp" afterPath="$PROJECT_DIR$/src/N-QueensII.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Parentheses.cpp" afterPath="$PROJECT_DIR$/src/Parentheses.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PermutationSequence.cpp" afterPath="$PROJECT_DIR$/src/PermutationSequence.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SortList.cpp" afterPath="$PROJECT_DIR$/src/SortList.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sqrt.cpp" afterPath="$PROJECT_DIR$/src/Sqrt.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ValidateBinarySearchTree.cpp" afterPath="$PROJECT_DIR$/src/ValidateBinarySearchTree.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/WordBreak.cpp" afterPath="$PROJECT_DIR$/src/WordBreak.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/allocate.cpp" afterPath="$PROJECT_DIR$/src/allocate.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/class.cpp" afterPath="$PROJECT_DIR$/src/class.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/redAndBlack.cpp" afterPath="$PROJECT_DIR$/src/redAndBlack.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/regex.cpp" afterPath="$PROJECT_DIR$/src/regex.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/stream.cpp" afterPath="$PROJECT_DIR$/src/stream.cpp" />
     </list>
     <ignored path="lectcode-practice.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -115,31 +56,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="3" column="63" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContainsDuplicateII.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/ContainsDuplicateII.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContainsDuplicateII.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ContainsDuplicateII.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -226,8 +147,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1292" />
-    <option name="height" value="732" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -269,6 +190,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lectcode-practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lectcode-practice" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lectcode-practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -502,7 +437,7 @@
       <workItem from="1477967934593" duration="739000" />
       <workItem from="1477970621773" duration="2089000" />
       <workItem from="1478014209882" duration="711000" />
-      <workItem from="1478052799276" duration="11000" />
+      <workItem from="1478052799276" duration="721000" />
     </task>
     <task id="LOCAL-00001" summary="add UniqueBinarySearchTreesII solution">
       <created>1474475909083</created>
@@ -539,11 +474,18 @@
       <option name="project" value="LOCAL" />
       <updated>1476599381924</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="red and black tree module">
+      <created>1478052838252</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1478052838252</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98193000" />
+    <option name="totallyTimeSpent" value="98903000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -555,29 +497,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1292" height="732" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11244019" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15279241" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32740214" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2857143" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2496474" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39892185" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5296496" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2857143" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39892185" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -956,22 +898,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="63" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/ContainsDuplicateII.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -980,10 +906,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/include/ContainsDuplicateII.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ContainsDuplicateII.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="63" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="64" />
           <folding />
         </state>
       </provider>
