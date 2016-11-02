@@ -1,4 +1,6 @@
 #include <iostream>
+#include <math.h>
+#include <string.h>
 using namespace std;
 
 struct TreeNode {
@@ -86,7 +88,7 @@ public:
 	}
 };
 
-int main(){
+int CountCompleteTreeNodes(){
 	Solution a;
 	TreeNode *root = new TreeNode(0);
 	int i;

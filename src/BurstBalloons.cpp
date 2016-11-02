@@ -39,7 +39,6 @@ using namespace std;
 //If the you burst balloon i you will get nums[left] * nums[i] * nums[right] coins.
 //Here left and right are adjacent indices of i.After the burst, the left and right then becomes adjacent.
 
-//¶¯Ì¬¹æ»®
 class Solution {
 public:
 
@@ -84,7 +83,7 @@ public:
 	}
 };
 
-int main(){
+int BurstBalloons(){
 	Solution a;
 	vector<int> b = { 3, 1, 5, 8 };
 	int i;

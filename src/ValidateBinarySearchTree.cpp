@@ -68,7 +68,7 @@ public:
 	}
 };
 
-int main(){
+int ValidateBinarySearchTree(){
 	Solution a;
 	int i;
 	TreeNode *root = new TreeNode(5);

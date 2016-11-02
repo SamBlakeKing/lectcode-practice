@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include <string>
+#include <string.h>
 using namespace std;
 
 struct myParenthese{
@@ -73,7 +73,7 @@ public:
 	}
 };
 
-int main(){
+int Parentheses(){
 	int i;
 	Solution a;
 	vector<string> b = a.generateParenthesis(1);

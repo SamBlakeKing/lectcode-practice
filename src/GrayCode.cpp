@@ -21,7 +21,7 @@ public:
 	}
 };
 
-int main(){
+int GrayCode(){
 	Solution a;
 	vector<int> b;
 	int i;

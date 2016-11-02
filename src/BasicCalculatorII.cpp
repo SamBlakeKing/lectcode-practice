@@ -87,7 +87,7 @@ public:
 	}
 };
 
-int main(){
+int BasicCalculatorII(){
 	Solution a;
 	string b = "0+0";
 	int i;

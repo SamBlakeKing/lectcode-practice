@@ -367,7 +367,7 @@ struct IpData{
 	}
 };
 
-int main(void){
+int IP_deny(void){
 	IpData *data, *temp;
 	unsigned int m, n, i;
 	string temp_ip;

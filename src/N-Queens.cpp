@@ -180,7 +180,7 @@ public:
 	}
 };
 
-int main(){
+int N_Queens(){
 	Solution a;
 	int i,j;
 

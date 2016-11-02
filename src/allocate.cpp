@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-int main(){
+int allocate(){
 	/*
 	int temp;
 	shared_ptr<int> p = make_shared<int>(42);

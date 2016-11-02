@@ -53,7 +53,7 @@ public:
 	}
 };
 
-int main(){
+int CombinationSum(){
 	Solution a;
 	vector<int> b = { 8, 7, 4, 3 };
 	vector<int> temp;
