@@ -77,7 +77,7 @@ public:
 	}
 };
 
-int main(){
+int SortList(){
 	Solution a;
 	ListNode *head = NULL, *temp;
 	int i;

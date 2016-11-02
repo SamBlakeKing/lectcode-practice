@@ -45,7 +45,7 @@ istream& read(istream& i, sale_data& a){
 	return i;
 }
 
-int main(){
+int test(){
 	int i;
 	sale_data total;
 	ofstream outfile("result.txt");

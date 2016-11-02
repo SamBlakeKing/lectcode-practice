@@ -50,7 +50,7 @@ public:
 	}
 };
 
-int main(){
+int AdditiveNumber(){
 	//int i = 123;
 	//string temp ="dfasfaf";
 	////temp = to_string(i);

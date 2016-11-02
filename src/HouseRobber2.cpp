@@ -49,7 +49,7 @@ public:
 	}
 };
 
-int main(){
+int HouseRobber2(){
 	Solution a;
 	vector<int> b = { 2, 7, 7, 7, 4 };
 	int i;

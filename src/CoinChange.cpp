@@ -1,6 +1,7 @@
 #include <iostream>
 #include <algorithm>
 #include <vector>
+#include <limits.h>
 using namespace std;
 
 //class Solution {
@@ -110,7 +111,7 @@ public:
 	}
 };
 
-int main(){
+int CoinChange(){
 	Solution a;
 	vector<int> b = { 438, 86, 218,138,358,152,129};
 	int i;

@@ -1,17 +1,6 @@
-#include <iostream>
+#include "../include/redAndBlack.h"
 
-using namespace std;
-
-enum Color{red, black, nil};
-struct treeNode{
-    int key;
-    struct treeNode *p;
-    struct treeNode *left;
-    struct treeNode *right;
-    Color color;
-};
-
-void leftRotate(treeNode *root, treeNode *x){
+void redAndBlack::leftRotate(treeNode *root, treeNode *x){
     treeNode *y = x->right;
     y->p = x->p;
     if(x->p->left == x)
@@ -24,7 +13,7 @@ void leftRotate(treeNode *root, treeNode *x){
     x->p = y;
 }
 
-void rightRotate(treeNode *root, treeNode *x){
+void redAndBlack::rightRotate(treeNode *root, treeNode *x){
     treeNode *y = x->left;
     y->p = x->p;
     if(x->p->left == x)
@@ -37,19 +26,13 @@ void rightRotate(treeNode *root, treeNode *x){
     x->p = y;
 }
 
-static treeNode *treeNil;
-treeNil->p = treeNil;
-treeNil->left = treeNil;
-treeNil->right = treeNil;
-treeNil->color = nil;
-
-void RBinsertFixup(treeNode *root, treeNode *x){
-	while(x->p->color == red){
+void redAndBlack::RBinsertFixup(treeNode *root, treeNode *x){
+	while(x->p->color == Color::red){
 		if(x->p == x->p->p->left){
-			if(x->p->p->right->color == red){
-				x->p->color = black;
-				x->p->p->right->color = black;
-				x->p->p->color = red;
+			if(x->p->p->right->color == Color::red){
+				x->p->color = Color::black;
+				x->p->p->right->color = Color::black;
+				x->p->p->color = Color::red;
 				x = x->p->p;
 			}else{
 				if(x == x->p->right){
@@ -58,7 +41,7 @@ void RBinsertFixup(treeNode *root, treeNode *x){
 				}
 				rightRotate(root, x->p->p);
 				x->p->color = black;
-				x->p->right = red;
+				x->p->right->color = red;
 			}
 		}else{
 			if(x->p->p->left->color == red){
@@ -73,28 +56,28 @@ void RBinsertFixup(treeNode *root, treeNode *x){
 				}
 				leftRotate(root, x->p->p);
 				x->p->color = black;
-				x->p->left = red;
+				x->p->left->color = red;
 			}
 		}
 	}
 	root->color = black;
 }
 
-void RBinsert(treeNode *rootParent, treeNode *x){
+treeNode* redAndBlack::RBinsert(treeNode *rootParent, treeNode *x){
 	treeNode *y = rootParent->left;
 	treeNode *p = rootParent;
 
 	while(y != treeNil)
 		if(y->key == x->key){
 			delete x;
-			return;
+			return y;
 		}else if(y->key > x->key){
+            p = y;
 			y = y->left;
-			p = y;
 		}
 		else{
+            p = y;
 			y = y->right;
-			p = y;
 		}
 
 	x->left = x->right = treeNil;
@@ -108,10 +91,12 @@ void RBinsert(treeNode *rootParent, treeNode *x){
 	else
 		p->right = x;
 	x->color = red;
+
+    return NULL;
 }
 
-void RBtranslate(treeNode *root, treeNode *u, treeNode *v){
-	if(root->p == treeNil){
+void redAndBlack::RBtranslate(treeNode *root, treeNode *u, treeNode *v){
+	if(u->p == treeNil){
 		treeNil->left = treeNil->right = v;
 	}else if(u == u->p->left)
 		u->p->left = v;
@@ -120,15 +105,15 @@ void RBtranslate(treeNode *root, treeNode *u, treeNode *v){
 	v->p = u->p;
 }
 
-void RBdeleteFixup(treeNode *root, treeNode *x){
+void redAndBlack::RBdeleteFixup(treeNode *root, treeNode *x){
 	treeNode *w;
 	while(x->p != treeNil && x->color == black)
 		if(x == x->p->left){
 			w = x->p->right;
 			if(w->color ==red){
+                w->color = black;
+                x->p->color = red;
 				leftRotate(root, x->p);
-				w->color = black;
-				x->p->color = red;
 				w = x->p->right;
 			}
 			if(w->right->color==black && w->left->color==black){
@@ -136,52 +121,52 @@ void RBdeleteFixup(treeNode *root, treeNode *x){
 				x = x->p;
 			}else{
 				if(w->right->color == black){
+                    w->left->color = Color::black;
+                    w->color = red;
 					rightRotate(root, w);
-					w->color = red;
-					x->p->right = black;
 					w = x->p->right;
 				}
+                w->color = x->p->color;
+                x->p->color = black;
+                w->right->color = black;
 				leftRotate(root, x->p);
-				w->color = x->p->color;
-				x->p->color = black;
-				w->right = black;
 				x = root;
 			}
 		}else{
-			w = x->p->left;
-			if(w->color ==red){
-				rightRotate(root, x->p);
-				w->color = black;
-				x->p->color = red;
-				w = x->p->right;
-			}
-			if(w->left->color==black && w->right->color==black){
-				w->color = red;
-				x = x->p;
-			}else{
-				if(w->left->color == black){
-					leftRotate(root, w);
-					w->color = red;
-					x->p->left = black;
-					w = x->p->left;
-				}
-				rightRotate(root, x->p);
-				w->color = x->p->color;
-				x->p->color = black;
-				w->left = black;
-				x = root;
-			}
+            w = x->p->left;
+            if(w->color ==red){
+                w->color = black;
+                x->p->color = red;
+                leftRotate(root, x->p);
+                w = x->p->left;
+            }
+            if(w->left->color==black && w->right->color==black){
+                w->color = red;
+                x = x->p;
+            }else{
+                if(w->left->color == black){
+                    w->right->color = Color::black;
+                    w->color = red;
+                    rightRotate(root, w);
+                    w = x->p->left;
+                }
+                w->color = x->p->color;
+                x->p->color = black;
+                w->left->color = black;
+                leftRotate(root, x->p);
+                x = root;
+            }
 		}
 	x->color = black;
 }
 
-void RBdelete(treeNode *root, treeNode *z){
+void redAndBlack::RBdelete(treeNode *root, treeNode *z){
 	treeNode *y = z;
 	treeNode *x;
 	Color y_origin_color = z->color;
 	if(z->left == treeNil){
 		x = z->right;
-		RBtranslate(root, z, z->right)
+		RBtranslate(root, z, z->right);
 	}else if(z->right == treeNil){
 		x = z->left;
 		RBtranslate(root, z, z->left);
@@ -204,4 +189,12 @@ void RBdelete(treeNode *root, treeNode *z){
 	}
 	if(y_origin_color == black)
 		RBdeleteFixup(root, x);
+}
+
+void redAndBlack::BSFsearch(treeNode *root){
+    if(root == treeNil)
+        return;
+    BSFsearch(root->left);
+    std::cout<<root->key<<" ";
+    BSFsearch(root->right);
 }

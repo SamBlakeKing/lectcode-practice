@@ -10,7 +10,7 @@ struct person{
 	vector<string> phones;
 };
 
-int main(){
+int mStream(){
 	vector<person> persons;
 	string line;
 	ifstream in("test.txt");

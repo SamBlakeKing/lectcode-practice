@@ -44,7 +44,7 @@ public:
 	}
 };
 
-int main(){
+int MaximumProduct(){
 	int i;
 	Solution a;
 	vector<string> b{ "a", "aa", "aaa", "aaaa" };

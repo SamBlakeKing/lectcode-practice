@@ -68,7 +68,7 @@ public:
 	}
 };
 
-int main(){
+int FindtheDuplicateNumber(){
 	Solution a;
 	vector<int> b = { 1, 1, 2, 3, 4 };
 	int i;

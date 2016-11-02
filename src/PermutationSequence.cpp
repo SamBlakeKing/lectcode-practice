@@ -54,7 +54,7 @@ public:
 	}
 };
 
-int main(){
+int PermutationSequece(){
 	Solution a;
 	int i;
 	for (i = 1; i <= 6; i++)

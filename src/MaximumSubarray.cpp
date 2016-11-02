@@ -78,7 +78,7 @@ class Solution {
 		}
 };
 
-int main(){
+int MaximumSubarray(){
 	Solution a;
 	vector<int> b = {-2, 1,-3, 4, -1, 2, 1,-5, 4 };
 	int i;

@@ -129,7 +129,7 @@ public:
 	}
 };
 
-int main(){
+int LongestConsecutiveSequence(){
 	Solution a;
 	vector<int> nums = { 1, -8, 7, -2, -4, -4, 6, 3, -4, 0, -7, -1, 5, 1, -9, -3 };
 	int res = a.longestConsecutive(nums);
