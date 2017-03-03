@@ -1,11 +1,12 @@
 // #include <iostream>
 //#include "./include/redAndBlack.h"
-#include "./include/EditDistance.h"
+#include "./include/RemoveDuplicateLetters.h"
 
 int main() {
-    EditDistance a;
-    cout<<a.minDistance("horse","ros");
-    
+    RemoveDuplicateLetters a;
+    string s = "cbacdcbc";
+
+    cout<<a.removeDuplicateLetters(s);
 
     return 0;
 }

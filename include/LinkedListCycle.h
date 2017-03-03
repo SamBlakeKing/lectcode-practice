@@ -19,7 +19,7 @@ struct ListNode {
 class LinkedListCycle {
 public:
     bool hasCycle(ListNode *head);
-    ListNode *LinkedListCycle::detectCycle(ListNode *head);
+    ListNode* detectCycle(ListNode *head);
 };
 
 #endif //LECTCODE_PRACTICE_LINKEDLISTCYCLE_H
